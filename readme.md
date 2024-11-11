@@ -1,11 +1,72 @@
-Reto 1: Web Scraping
+# Plazavea Web Scrapping - CSV Files
 
-Descripción:
-- Visitar el sitio web de Plaza Vea (https://www.plazavea.com.pe/) y realizar la extracción de todos los productos disponibles de todas las categorías. 
-- Al completar esta tarea, subir el archivo al repositorio.
+Este archivo contiene enlaces a los archivos CSV generados para cada categoría.
 
-Objetivo:
-- Aplicar los conocimientos adquiridos durante las clases y reforzar lo aprendido mediante una actividad práctica.
+```bash
+pnpm install
+```
 
-Fecha de entrega:
-- Lunes, 6:00 p.m.
+## Usage
+
+```bash
+pnpm run start
+```
+
+
+## Opcional
+```bash
+node run view
+```
+
+## en la carpeta data 📁 se generará archivo.csv 
+#### bebidas
+[bebidas.csv](data/bebidas.csv)
+
+#### cuidado-personal-y-salud
+[cuidado-personal-y-salud.csv](data/cuidado-personal-y-salud.csv)
+
+#### limpieza
+[limpieza.csv](data/limpieza.csv)
+
+#### mascotas
+[mascotas.csv](data/mascotas.csv)
+
+#### abarrotes
+[abarrotes.csv](data/abarrotes.csv)
+
+#### electrohogar
+[electrohogar.csv](data/electrohogar.csv)
+
+#### frutas-y-verduras
+[frutas-y-verduras.csv](data/frutas-y-verduras.csv)
+
+#### decohogar
+[decohogar.csv](data/decohogar.csv)
+
+#### mejoramiento-del-hogar
+[mejoramiento-del-hogar.csv](data/mejoramiento-del-hogar.csv)
+
+#### congelados
+[congelados.csv](data/congelados.csv)
+
+#### quesos-y-fiambres
+[quesos-y-fiambres.csv](data/quesos-y-fiambres.csv)
+
+#### belleza
+[belleza.csv](data/belleza.csv)
+
+#### panaderia-y-pasteleria
+[panaderia-y-pasteleria.csv](data/panaderia-y-pasteleria.csv)
+
+#### libreria-y-oficina
+[libreria-y-oficina.csv](data/libreria-y-oficina.csv)
+
+#### carnes-aves-y-pescados
+[carnes-aves-y-pescados.csv](data/carnes-aves-y-pescados.csv)
+
+#### lacteos-y-huevos
+[lacteos-y-huevos.csv](data/lacteos-y-huevos.csv)
+
+#### juguetes-y-juegos
+[juguetes-y-juegos.csv](data/juguetes-y-juegos.csv)
+

@@ -1,0 +1,23 @@
+{
+  "name": "reto-bootcamp-noviembre",
+  "version": "1.0.0",
+  "description": "Scraper para PlazaVea utilizando Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:win": "node ./dist/scraper.js",
+    "start": "pnpm run build && pnpm run start:win ",
+    "view":"node ./dist/helpers/generateCsvMarkdown.js"
+  },
+  "keywords": [],
+  "author": "clix",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "fs": "0.0.1-security",
+    "puppeteer": "^23.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
