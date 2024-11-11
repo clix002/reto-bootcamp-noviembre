@@ -21,7 +21,7 @@ pnpm run start
 
 ## Opcional
 \`\`\`bash
-node .\src\helpers\generateCsvMarkdown.js
+node run view
 \`\`\`
 
 ## en la carpeta data 📁 se generará archivo.csv 
