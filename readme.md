@@ -15,7 +15,7 @@ pnpm run start
 
 ## Opcional
 ```bash
-node run view
+pnpm run view
 ```
 
 ## en la carpeta data 📁 se generará archivo.csv 
